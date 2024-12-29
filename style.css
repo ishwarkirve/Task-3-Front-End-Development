@@ -1,0 +1,216 @@
+nav {
+    height: 70px;
+    background-color: #1E3A8A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 600px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.header {
+    font-size: 25px;
+    font-weight: 900;
+    border: 2px solid grey;
+    padding: 5px;
+}
+
+.home-page {
+    height: 600px;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: space-around;
+}
+
+.desc {
+    width: 300px;
+    margin: 150px 0 10px 100px;
+    font-size: 30px;
+    font-weight: 600;
+    height: 110px;
+}
+
+.home-page img {
+    margin: 100px 0 0 100px;
+    height: 350px;
+    border-radius: 25px;
+}
+
+#about {
+    background-color: #f7f7f7;
+    height: 350px;
+    margin-top: -10px;
+}
+
+.name-color {
+    color: #2de3ff;
+    font-weight: 700;
+}
+
+hr {
+    border: 0;
+    background-color: #109eb1;
+    height: 2px;
+    margin: 10px 50px 10px 50px;
+}
+
+#education {
+    background-color: yellow;
+    height: 300px;
+}
+
+div h1 {
+    padding: 20px 0 0 20px;
+}
+
+.verticle-section {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    background-color: #1E3A8A;
+}
+
+.verticle-section h3 {
+    margin: 0 0 0 10px;
+    width: 150px;
+    color: white;
+}
+
+.verticle {
+    height: 120px;
+    width: 2px;
+    background-color: white;
+}
+
+.verticle:hover {
+    height: 200px;
+    font-size: 25px;
+    background-color: #1E3A8A;
+    color: rgb(86, 245, 7);
+}
+
+.verticle hr {
+    margin: 20px;
+}
+
+.para {
+    width: 150px;
+    margin: 10px 0 0 20px;
+}
+
+.cont {
+    width: 250px;
+}
+
+.cont1 {
+    width: 250px;
+}
+
+.cont:hover {
+    height: 200px;
+    background-color: #1E3A8A;
+}
+
+.cont1:hover {
+    height: 200px;
+    font-size: 22px;
+    background-color: #1E3A8A;
+}
+
+.content {
+    margin-left: 50px;
+}
+
+.content p {
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+}
+
+.sec {
+    height: 50%;
+    width: 100%;
+    margin: 0 0 0 50px;
+}
+
+.sec button {
+    margin: 50px 0 0 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fcffff;
+    background-color: #0ed6d9;
+}
+
+.sec p {
+    margin: 30px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.sec button:hover {
+    background-color: grey;
+    color: red;
+}
+#contact{
+    height: 200px;
+    background-color: #b7b7d1;
+    margin-top: 10px;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    display: flex;
+}
+.first p{
+    margin: 50px;
+}
+.first a img{
+    width: 30px;
+    height: 30px;
+    margin: 15px 0 0 200px;
+}
+.line{
+    height: 100px;
+    width: 2px;
+    background-color: white;
+}
+.second a{
+    margin-left: 240px;
+}
+#gmail{
+    height: 50px;
+    width: 50px;
+}
+.third a{
+    margin-left: 220px;
+}
+.copyright{
+    height: 70px;
+    background-color: #2c2c2c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navigation a{
+    text-decoration: none;
+    color: white;
+}
+#navigation a:hover{
+    padding: 5px;
+    border: 2px solid black;
+    color: yellow;
+}
